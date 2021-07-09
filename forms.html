@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form>
+       
+        <input type="text" placeholder="Username" required
+        maxlength="10" minlength="6">
+        <input type="password" placeholder="Password"> <br><br>
+
+        <input type="email" placeholder="Email">
+        <input type="url" placeholder="URL">
+        <br><br>
+
+        <input type="number" placeholder="age" min="1" max="60">
+        <label>Adhar Card :</label>
+        <input type="file">
+         <br><br>
+
+         <input type="date">
+         <input type="time"><br><br>
+
+         <label>Gender:</label>
+         <input type="radio" name="gender" checked>Male
+         <input type="radio" name="gender" disabled>Female
+         <input type="radio" name="gender" disabled>Others
+
+         <br><br>
+
+         <label>Skills:</label>
+         <input type="checkbox">Javascript
+         <input type="checkbox">Angular
+         <input type="checkbox">React
+
+         <br><br>
+
+         <textarea rows="10px" cols="50px" placeholder="Enter your Feedback"></textarea> <br><br>
+        <input type="submit" value="Signup">
+
+        <!-- <button type="submit">Login</button> -->
+
+    </form>
+</body>
+</html>
