@@ -1,0 +1,30 @@
+/* External CSS File It is Universal*/
+
+/* CSS text-properties */
+p
+{
+    color: green;
+    font-size: 150px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: algerian;
+    letter-spacing: 10px;
+
+    text-shadow: 4px 5px 4px red;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+h3
+{
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 50px;
+    word-spacing: 5px;
+     line-height: 80px;
+}
+
+a
+{
+    text-decoration: none;
+}
