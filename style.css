@@ -1,30 +1,33 @@
-/* External CSS File It is Universal*/
+/* body
+{
+    background-color: crimson;
+    background-image:linear-gradient(rgba(235, 17, 90, 0.5),rgba(235, 17, 90, 0.5)), url("https://images.pexels.com/photos/4101555/pexels-photo-4101555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} */
 
-/* CSS text-properties */
+/* body
+{
+    background-color: royalblue;
+}
+div
+{
+    background-color: crimson;
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    background-attachment: fixed;
+} */
+
 p
 {
-    color: green;
-    font-size: 150px;
-    font-style: italic;
-    font-weight: bold;
-    font-family: algerian;
-    letter-spacing: 10px;
-
-    text-shadow: 4px 5px 4px red;
-    text-decoration: line-through;
-    text-align: center;
-}
-
-h3
-{
-    text-align: justify;
-    text-transform: capitalize;
-    text-indent: 50px;
-    word-spacing: 5px;
-     line-height: 80px;
-}
-
-a
-{
-    text-decoration: none;
+    background-color: crimson;
+    width: 400px;
+    height: 300px;
+    overflow: auto;
 }
